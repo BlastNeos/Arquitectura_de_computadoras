@@ -1,0 +1,35 @@
+# Material personal de estudio
+Apuntes/
+
+# Figuras viejas / documentación auxiliar del TP2
+TP2_UART/Figuras/
+
+# Vivado - archivos generados
+.Xil/
+*.jou
+*.log
+*.str
+*.pb
+
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Simulación
+xsim.dir/
+*.wdb
+*.vcd
+
+# Bitstreams y productos generados
+*.bit
+*.bin
+*.ltx
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+*~
+.vscode/
