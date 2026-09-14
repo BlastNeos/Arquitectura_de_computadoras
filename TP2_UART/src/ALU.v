@@ -32,9 +32,9 @@ module ALU
         XOR: 
             o_res = (i_A ^ i_B);
         SRA: //mueve derecha y rellena con signo
-            o_res = (i_A >>> i_B);
+            o_res = ($signed(i_A) >>> i_B[$clog2(N_BITS)-1:0]);
         SRL: //mueve derecha y rellena con ceros
-            o_res = (i_A >> i_B);
+            o_res = (i_A >> i_B[$clog2(N_BITS)-1:0]);
         NOR: 
             o_res = ~(i_A | i_B);
         default:
