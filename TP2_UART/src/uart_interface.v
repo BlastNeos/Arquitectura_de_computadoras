@@ -39,7 +39,7 @@ module uart_interface
         
         if(reset)
             begin
-                state_reg   <=  rec_A;
+                state_reg <= DATO_A;
             end
         else
             begin
