@@ -33,3 +33,5 @@ xsim.dir/
 Thumbs.db
 *~
 .vscode/
+__pycache__/
+*.pyc
