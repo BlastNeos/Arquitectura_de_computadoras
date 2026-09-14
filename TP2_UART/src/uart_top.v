@@ -8,7 +8,8 @@ module uart_top
     input  wire clk,
     input  wire reset,
     input  wire rx,
-    output wire tx
+    output wire tx,
+    output wire [N_BITS-1:0] result
 );
 
     // Tick de sobremuestreo para RX y TX.
@@ -151,5 +152,7 @@ module uart_top
         .tx_done_tick(),
         .tx(tx)
     );
+
+    assign result = RES;
 
 endmodule
