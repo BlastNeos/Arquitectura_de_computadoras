@@ -35,3 +35,4 @@ Thumbs.db
 .vscode/
 __pycache__/
 *.pyc
+TP2_UART/Vivado/
