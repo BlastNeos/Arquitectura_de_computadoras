@@ -29,7 +29,7 @@ module tb_alu;
      * Con 100 pruebas y 8 operaciones:
      *      100 x 8 = 800 pruebas aleatorias.
      */
-    parameter TESTS_PER_OP = 5;
+    parameter TESTS_PER_OP = 100;
 
 
     /*
